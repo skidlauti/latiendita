@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 La Tiendita 2.0 ✨ - Brainrots Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="heart">💖</span>
+                    La Tiendita 2.0
+                    <span class="sparkle">✨</span>
+                </h1>
+                <p class="subtitle">Tu tienda de brainrots favorita</p>
+            </div>
+        </header>
+
+        <!-- Country Selector -->
+        <div class="country-selector">
+            <div class="selector-container">
+                <label for="countrySelect" class="selector-label">
+                    <i class="fas fa-globe"></i>
+                    Selecciona tu país:
+                </label>
+                <select id="countrySelect" class="country-select">
+                    <option value="">-- Elige tu país --</option>
+                    <option value="USD">🇺🇸 Dólares Estadounidenses (USD)</option>
+                    <option value="ARS">🇦🇷 Pesos Argentinos (ARS)</option>
+                    <option value="CLP">🇨🇱 Pesos Chilenos (CLP)</option>
+                    <option value="MXN">🇲🇽 Pesos Mexicanos (MXN)</option>
+                    <option value="COP">🇨🇴 Pesos Colombianos (COP)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Payment Methods Section -->
+        <div class="payment-section">
+            <div class="payment-container">
+                <h3 class="payment-title">
+                    <i class="fas fa-credit-card"></i>
+                    Métodos de Pago Disponibles
+                </h3>
+                <div class="payment-methods">
+                    <div class="payment-placeholder">
+                        <i class="fas fa-globe"></i>
+                        <span>Selecciona un país para ver los métodos de pago disponibles</span>
+                    </div>
+                </div>
+                <div class="purchase-info">
+                    <h4>¿Cómo proceder con la compra?</h4>
+                    <ol class="purchase-steps">
+                        <li><i class="fas fa-search"></i> Selecciona tu país para que aparezca la lista con los precios del mismo</li>
+                        <li><i class="fas fa-shopping-cart"></i> Elegi cual te parece mas fachero</li>
+                        <li><i class="fas fa-comments"></i> Contacta con nosotros por TikTok o Discord</li>
+                        <li><i class="fas fa-credit-card"></i> Realiza el pago por el método de tu preferencia</li>
+                        <li><i class="fas fa-rocket"></i> Recibi tu brainrot inmediatamente</li>
+                    </ol>
+                    <div class="contact-info">
+                        <p><i class="fab fa-tiktok"></i> <strong>TikTok:</strong> <a href="https://www.tiktok.com/@marttinablox1" target="_blank">@marttinablox1</a></p>
+                        <p><i class="fab fa-discord"></i> <strong>Discord:</strong> <a href="https://discord.gg/r49bGHuhe8" target="_blank">@LaTienditaBrainrots</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-container" id="productsContainer">
+            <div class="welcome-message">
+                <div class="welcome-card">
+                    <i class="fas fa-shopping-bag welcome-icon"></i>
+                    <h2>¡Bienvenido a La Tiendita!</h2>
+                    <p>Selecciona tu país para ver nuestros brainrots disponibles y sus precios 💖</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 La Tiendita 2.0 - Brainrots Store</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
