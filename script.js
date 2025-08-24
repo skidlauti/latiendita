@@ -235,23 +235,29 @@ const storeData = {
             ],
             "Grande Combinasion": [
                 { name: "Grande Mutada 35M/s", price: 28.0 },
-                { name: "Grande Oro Mutada 52.5M/s", price: 36.0 },
-                { name: "Grande Lava 60M/s", price: 42.0 },
-                { name: "Grande Mutada 70M/s", price: 48.0 },
+                { name: "Grande Oro Mutada 52.5M/s", price: 31.0 },
+                { name: "Grande Lava 60M/s", price: 40.0 },
+                { name: "Grande Mutada 70M/s", price: 45.0 },
                 { name: "Grande Rainbow 100M/s", price: 50.0 }
             ],
             "Los Combinasionas": [
-                { name: "Combinasionas 15M/s", price: 15.0 },
-                { name: "Combinasionas Oro 18.7M/s", price: 18.0 },
+                { name: "Combinasionas 15M/s", price: 12.0 },
                 { name: "Combinasionas Diamante 22.5M/s", price: 21.0 },
+                { name: "Combinasionas 52.5M/s", price: 30.0 },
+                { name: "Combinasionas 60M/s", price: 32.0 },
+                { name: "Combinasionas 75M/s", price: 35.0 },
                 { name: "Combinasionas Mutadas 90M/s", price: 40.0 },
-                { name: "Combinasionas Mutadas 105M/s", price: 55.0 }
+                { name: "Combinasionas Oro 93.7M/s", price: 42.0 },
+                { name: "Combinasionas Mutadas 105M/s", price: 50.0 }
             ],
             "Pot Hotspot": [
                 { name: "Pot Hotspot Lava 15M/s", price: 20.0 }
             ],
             "Chicleteira Bicicleteira": [
+                { name: "Chicleteira Mutada 17.5M/s", price: 17.0 },
+                { name: "Chicleteira Diamante 19.2M/s", price: 19.0 },
                 { name: "Chicleteira Lava 21M/s", price: 20.0 },
+                { name: "Chicleteira Mutada 35M/s", price: 30.0 },
                 { name: "Chicleteira Rainbow Mutada 45.5M/s", price: 35.0 }
             ]
         }
@@ -483,16 +489,22 @@ const brainrotImages = {
     
     // Los Combinasionas
     "Combinasionas 15M/s": "⚡",
-    "Combinasionas Oro 18.7M/s": "🟡",
     "Combinasionas Diamante 22.5M/s": "💎",
+    "Combinasionas 52.5M/s": "⚡",
+    "Combinasionas 60M/s": "⚡",
+    "Combinasionas 75M/s": "⚡",
     "Combinasionas Mutadas 90M/s": "⚡",
+    "Combinasionas Oro 93.7M/s": "🟡",
     "Combinasionas Mutadas 105M/s": "⚡",
     
     // Pot Hotspot
     "Pot Hotspot Lava 15M/s": "🔥",
     
     // Chicleteira Bicicleteira
+    "Chicleteira Mutada 17.5M/s": "⚡",
+    "Chicleteira Diamante 19.2M/s": "💎",
     "Chicleteira Lava 21M/s": "🔥",
+    "Chicleteira Mutada 35M/s": "⚡",
     "Chicleteira Rainbow Mutada 45.5M/s": "🌈"
 };
 
