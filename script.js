@@ -81,7 +81,14 @@ const storeData = {
                 { name: "Agarrini La Palini Oro 531.2K/s", price: 2.0 },
                 { name: "Unclito Samito Rainbow Mutado 1.1M/s", price: 2.5 },
                 { name: "Brr Es Teh Patipum Galaxy 1.3M/s", price: 3.0 },
-                { name: "Karkerkar Mutado 1.9M/s", price: 3.0 }
+                { name: "Karkerkar Mutado 1.9M/s", price: 3.0 },
+                { name: "Matteo Galaxy 525k/s", price: 2.5 },
+                { name: "Bisonte Giuppitere Galaxy 2.1M/s", price: 3.0 },
+                { name: "BlackHole Goat Oro 500k/s", price: 2.5 },
+                { name: "Bulbito Bandito Traktorito Blood 820k/s", price: 3.0 },
+                { name: "Crabbo Limonetta Galaxy 1.6M/s", price: 3.0 },
+                { name: "Cacasito Satalito 240k/s", price: 2.0 },
+                { name: "Blackhole Goat 400k/s", price: 2.0 }
             ],
             "Ballerino Lololo": [
                 { name: "Ballerino Oro Mutado 1.2M/s", price: 3.0 },
@@ -102,6 +109,7 @@ const storeData = {
             ],
             "Dul Dul Dul": [
                 { name: "Dul Dul Dul 375K/s", price: 2.0 },
+                { name: "Dul Dul Dul diamante 562.5k/s", price: 2.5 },
                 { name: "Dul Dul Dul Oro Mutado 2.3M/s", price: 4.5 }
             ],
             "Orcalero Orcala": [
@@ -155,8 +163,13 @@ const storeData = {
             "Bombinitos": [
                 { name: "Bombinitos 220K/s", price: 2.0 },
                 { name: "Bombinitos Oro 275K/s", price: 2.0 },
-                { name: "Bombinitos Mutados 880K/s", price: 2.0 },
-                { name: "Bombinitos Oro Mutados 1.8M/s", price: 2.8 }
+                { name: "Bombinitos Blood 440k/s", price: 2.2 },
+                { name: "Bombinitos Mutados 880K/s", price: 2.5 },
+                { name: "Bombinitos candy 880k/s", price: 2.5 },
+                { name: "Bombinitos 1.3M/s", price: 2.5 },
+                { name: "Bombinitos Oro Mutados 1.8M/s", price: 2.8 },
+                { name: "Bombinitos Blood 1.7M/s", price: 2.8 },
+                { name: "Bombinitos Galaxy 1.9M/s", price: 2.8 }
             ],
             "Vaquitas Saturnitas": [
                 { name: "Vaquitas Saturnitas 750K/s", price: 2.5 },
@@ -182,11 +195,13 @@ const storeData = {
             "Vaca Saturno": [
                 { name: "Vaca 275K/s", price: 2.0 },
                 { name: "Vaca Oro 343.7K/s", price: 2.2 },
+                { name: "Vaca Diamante 412.5k/s", price: 2.5 },
                 { name: "Vaca Mutada 1.1M/s", price: 3.0 },
                 { name: "Vaca Mutada 1.3M/s", price: 3.0 },
                 { name: "Vaca Diamante Mutada 1.5M/s", price: 3.0 },
                 { name: "Vaca Mutada 1.6M/s", price: 3.0 },
                 { name: "Vaca Oro Mutada 1.7M/s", price: 3.0 },
+                { name: "Vaca Galaxy 1.9M/s", price: 3.0 },
                 { name: "Vaca Mutada 2M/s", price: 3.5 },
                 { name: "Vaca Lava Mutada 2.2M/s", price: 3.5 },
                 { name: "Vaca Lava Mutada 2.4M/s", price: 3.5 },
@@ -206,7 +221,9 @@ const storeData = {
             "Tralaleritas": [
                 { name: "Tralaleritas 650K/s", price: 4.0 },
                 { name: "Tralaleritas Oro 812.5K/s", price: 4.5 },
-                { name: "Tralaleritas Mutadas 3.2M/s", price: 5.5 }
+                { name: "Tralaleritas Mutadas 3.2M/s", price: 5.5 },
+                { name: "Tralaleritas rainbow 11M/s", price: 10.0 },
+                { name: "Tralaleritas rainbow 14.3M/s", price: 12.0 }
             ],
             "Sammyni Spideriny": [
                 { name: "Sammyni Mutado 1.3M/s", price: 2.5 },
@@ -227,38 +244,40 @@ const storeData = {
                 { name: "Medusa 1M/s", price: 3.8 },
                 { name: "Medusa Oro 1.2M/s", price: 4.0 },
                 { name: "Medusa Mutada 4M/s", price: 5.5 },
+                { name: "Medusa 6M/s", price: 5.8 },
                 { name: "Medusa Oro Mutada 6.2M/s", price: 6.5 },
                 { name: "Medusa Mutada 6.5M/s", price: 7.0 },
-                { name: "Medusa Rainbow 10M/s", price: 10.0 },
-                { name: "Medusa Rainbow Mutada 14M/s", price: 13.0 },
-                { name: "Medusa Mutada 19M/s", price: 18.0 }
+                { name: "Medusa Rainbow 10M/s", price: 10.0 }
             ],
             "Grande Combinasion": [
+                { name: "Grande Normal 10M/S", price: 12.0 },
                 { name: "Grande Mutada 35M/s", price: 28.0 },
-                { name: "Grande Oro Mutada 52.5M/s", price: 31.0 },
+                { name: "Grande Mutada 40M/s", price: 31.0 },
                 { name: "Grande Lava 60M/s", price: 40.0 },
                 { name: "Grande Mutada 70M/s", price: 45.0 },
                 { name: "Grande Rainbow 100M/s", price: 50.0 }
             ],
             "Los Combinasionas": [
-                { name: "Combinasionas 15M/s", price: 12.0 },
-                { name: "Combinasionas Diamante 22.5M/s", price: 21.0 },
+                { name: "Combinasionas 15M/s", price: 11.0 },
+                { name: "Combinasionas Oro 18.7M/s", price: 15.0 },
                 { name: "Combinasionas 52.5M/s", price: 30.0 },
                 { name: "Combinasionas 60M/s", price: 32.0 },
                 { name: "Combinasionas 75M/s", price: 35.0 },
-                { name: "Combinasionas Mutadas 90M/s", price: 40.0 },
-                { name: "Combinasionas Oro 93.7M/s", price: 42.0 },
-                { name: "Combinasionas Mutadas 105M/s", price: 50.0 }
+                { name: "Combinasionas Mutadas 90M/s", price: 30.0 },
+                { name: "Combinasionas Oro 93.7M/s", price: 35.0 },
+                { name: "Combinasionas 112.5M/s", price: 42.0 },
+                { name: "Combinasionas 210M/s", price: 0.0 }
             ],
             "Pot Hotspot": [
-                { name: "Pot Hotspot Lava 15M/s", price: 20.0 }
+                { name: "Pot Hotspot Lava 15M/s", price: 18.0 }
             ],
             "Chicleteira Bicicleteira": [
-                { name: "Chicleteira Mutada 17.5M/s", price: 17.0 },
+                { name: "Chicleteira Normal", price: 7.0 },
+                { name: "Chicleteira Oro", price: 8.5 },
                 { name: "Chicleteira Diamante 19.2M/s", price: 19.0 },
-                { name: "Chicleteira Lava 21M/s", price: 20.0 },
-                { name: "Chicleteira Mutada 35M/s", price: 30.0 },
-                { name: "Chicleteira Rainbow Mutada 45.5M/s", price: 35.0 }
+                { name: "Chicleteira Oro 30.6M/s", price: 30.0 },
+                { name: "Chicleteira Rainbow 35M/s", price: 35.0 },
+                { name: "Chicleteira Mutada 38.5M/s", price: 38.0 }
             ]
         }
     }
@@ -329,6 +348,13 @@ const brainrotImages = {
     "Unclito Samito Rainbow Mutado 1.1M/s": "🌈",
     "Brr Es Teh Patipum Galaxy 1.3M/s": "🌌",
     "Karkerkar Mutado 1.9M/s": "⚡",
+    "Matteo Galaxy 525k/s": "🌌",
+    "Bisonte Giuppitere Galaxy 2.1M/s": "🌌",
+    "BlackHole Goat Oro 500k/s": "🟡",
+    "Bulbito Bandito Traktorito Blood 820k/s": "🩸",
+    "Crabbo Limonetta Galaxy 1.6M/s": "🌌",
+    "Cacasito Satalito 240k/s": "🪐",
+    "Blackhole Goat 400k/s": "🐐",
     
     // Ballerino Lololo
     "Ballerino Oro Mutado 1.2M/s": "🟡",
@@ -349,6 +375,7 @@ const brainrotImages = {
     
     // Dul Dul Dul
     "Dul Dul Dul 375K/s": "🍬",
+    "Dul Dul Dul diamante 562.5k/s": "💎",
     "Dul Dul Dul Oro Mutado 2.3M/s": "🟡",
     
     // Orcalero Orcala
@@ -402,8 +429,13 @@ const brainrotImages = {
     // Bombinitos
     "Bombinitos 220K/s": "💣",
     "Bombinitos Oro 275K/s": "🟡",
+    "Bombinitos Blood 440k/s": "🩸",
     "Bombinitos Mutados 880K/s": "⚡",
+    "Bombinitos candy 880k/s": "🍬",
+    "Bombinitos 1.3M/s": "💣",
     "Bombinitos Oro Mutados 1.8M/s": "🟡",
+    "Bombinitos Blood 1.7M/s": "🩸",
+    "Bombinitos Galaxy 1.9M/s": "🌌",
     
     // Vaquitas Saturnitas
     "Vaquitas Saturnitas 750K/s": "🐄",
@@ -429,11 +461,13 @@ const brainrotImages = {
     // Vaca Saturno
     "Vaca 275K/s": "🪐",
     "Vaca Oro 343.7K/s": "🟡",
+    "Vaca Diamante 412.5k/s": "💎",
     "Vaca Mutada 1.1M/s": "⚡",
     "Vaca Mutada 1.3M/s": "⚡",
     "Vaca Diamante Mutada 1.5M/s": "💎",
     "Vaca Mutada 1.6M/s": "⚡",
     "Vaca Oro Mutada 1.7M/s": "🟡",
+    "Vaca Galaxy 1.9M/s": "🌌",
     "Vaca Mutada 2M/s": "⚡",
     "Vaca Lava Mutada 2.2M/s": "🔥",
     "Vaca Lava Mutada 2.4M/s": "🔥",
@@ -454,6 +488,8 @@ const brainrotImages = {
     "Tralaleritas 650K/s": "🔸",
     "Tralaleritas Oro 812.5K/s": "🟡",
     "Tralaleritas Mutadas 3.2M/s": "⚡",
+    "Tralaleritas rainbow 11M/s": "🌈",
+    "Tralaleritas rainbow 14.3M/s": "🌈",
     
     // Sammyni Spideriny
     "Sammyni Mutado 1.3M/s": "⚡",
@@ -474,6 +510,7 @@ const brainrotImages = {
     "Medusa 1M/s": "🐍",
     "Medusa Oro 1.2M/s": "🟡",
     "Medusa Mutada 4M/s": "⚡",
+    "Medusa 6M/s": "🐍",
     "Medusa Oro Mutada 6.2M/s": "🟡",
     "Medusa Mutada 6.5M/s": "⚡",
     "Medusa Rainbow 10M/s": "🌈",
@@ -481,31 +518,34 @@ const brainrotImages = {
     "Medusa Mutada 19M/s": "⚡",
     
     // Grande Combinasion
+    "Grande Normal 10M/S": "🏰",
     "Grande Mutada 35M/s": "🏰",
-    "Grande Oro Mutada 52.5M/s": "🟡",
+    "Grande Mutada 40M/s": "🏰",
     "Grande Lava 60M/s": "🔥",
     "Grande Mutada 70M/s": "⚡",
     "Grande Rainbow 100M/s": "🌈",
     
     // Los Combinasionas
     "Combinasionas 15M/s": "⚡",
-    "Combinasionas Diamante 22.5M/s": "💎",
+    "Combinasionas Oro 18.7M/s": "🟡",
     "Combinasionas 52.5M/s": "⚡",
     "Combinasionas 60M/s": "⚡",
     "Combinasionas 75M/s": "⚡",
     "Combinasionas Mutadas 90M/s": "⚡",
     "Combinasionas Oro 93.7M/s": "🟡",
-    "Combinasionas Mutadas 105M/s": "⚡",
+    "Combinasionas 112.5M/s": "⚡",
+    "Combinasionas 210M/s": "⚡",
     
     // Pot Hotspot
     "Pot Hotspot Lava 15M/s": "🔥",
     
     // Chicleteira Bicicleteira
-    "Chicleteira Mutada 17.5M/s": "⚡",
+    "Chicleteira Normal": "🚲",
+    "Chicleteira Oro": "🟡",
     "Chicleteira Diamante 19.2M/s": "💎",
-    "Chicleteira Lava 21M/s": "🔥",
-    "Chicleteira Mutada 35M/s": "⚡",
-    "Chicleteira Rainbow Mutada 45.5M/s": "🌈"
+    "Chicleteira Oro 30.6M/s": "🟡",
+    "Chicleteira Rainbow 35M/s": "🌈",
+    "Chicleteira Mutada 38.5M/s": "⚡"
 };
 
 // Elementos del DOM
