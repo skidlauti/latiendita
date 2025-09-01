@@ -258,15 +258,16 @@ const storeData = {
                 { name: "Grande Rainbow 100M/s", price: 50.0 }
             ],
             "Los Combinasionas": [
-                { name: "Combinasionas 15M/s", price: 11.0 },
+                { name: "Combinasionas 15M/s", price: 10.0 },
                 { name: "Combinasionas Oro 18.7M/s", price: 15.0 },
+                { name: "Combinasionas 45M/s", price: 23.0 },
                 { name: "Combinasionas 52.5M/s", price: 30.0 },
                 { name: "Combinasionas 60M/s", price: 32.0 },
                 { name: "Combinasionas 75M/s", price: 35.0 },
                 { name: "Combinasionas Mutadas 90M/s", price: 30.0 },
                 { name: "Combinasionas Oro 93.7M/s", price: 35.0 },
                 { name: "Combinasionas 112.5M/s", price: 42.0 },
-                { name: "Combinasionas 210M/s", price: 0.0 }
+                { name: "Combinasionas 210M/s", price: 65.0 }
             ],
             "Pot Hotspot": [
                 { name: "Pot Hotspot Lava 15M/s", price: 18.0 }
@@ -528,6 +529,7 @@ const brainrotImages = {
     // Los Combinasionas
     "Combinasionas 15M/s": "⚡",
     "Combinasionas Oro 18.7M/s": "🟡",
+    "Combinasionas 45M/s": "⚡",
     "Combinasionas 52.5M/s": "⚡",
     "Combinasionas 60M/s": "⚡",
     "Combinasionas 75M/s": "⚡",
